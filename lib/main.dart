@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics/padding/home_screen.dart';
+import 'package:flutter_basics/statefulwidget/home_screen.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: HomeScreen(),
-  ));
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen(),
+    ),
+  );
 }
-
